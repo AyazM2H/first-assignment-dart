@@ -1,6 +1,6 @@
 abstract class Vehicle{
 
-  int _speed = 0;
+  late int _speed;
   
   set setID(int value){
     
