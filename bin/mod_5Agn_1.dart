@@ -7,7 +7,7 @@ abstract class Vehicle{
     _speed = value;
   }
 
-  int get runingSpeed => _speed;
+  int get runningSpeed => _speed;
 
   move();
   setSpeed(int speed){
@@ -21,7 +21,7 @@ abstract class Vehicle{
 class Car extends Vehicle{
   @override
   move() {
-    print('The car is moving at $runingSpeed km/h');
+    print('The car is moving at $runningSpeed km/h');
 
   }
 
