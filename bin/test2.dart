@@ -1,10 +1,10 @@
-import 'mod_5Agn_1.dart';
+import 'untitled2.dart';
 
 main(){
 
   Car car = Car();
-  car.setSpeed(100);
+  car.setSpeed(80);
   car.move();
-  car.setID=80;
-  car.move();
+
+
 }
